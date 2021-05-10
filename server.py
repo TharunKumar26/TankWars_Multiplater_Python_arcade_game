@@ -2,7 +2,7 @@ import socket
 from _thread import *
 import sys
 import json
-server = "192.168.55.106"
+server = "ip_address"
 port = 5555
 currentPlayer = 1
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
